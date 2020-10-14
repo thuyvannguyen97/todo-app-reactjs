@@ -1,0 +1,73 @@
+.status-bar {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  font-size: 15px;
+  height: 35px;
+}
+.signal {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  flex: 1;
+}
+.signal p {
+  line-height: 20px;
+}
+.signal .network, .signal .wifi {
+  width: 30px;
+  height: 20px;
+  margin-left: 5px;
+}
+.signal .wifi {
+  margin-right: auto;
+}
+.time {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+.battery {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  flex: 1;
+}
+.battery p {
+  margin-left: auto;
+}
+.battery img {
+  width: 32px;
+  height: 28px;
+  margin: 0 4px;
+}
+
+/* nav bar */
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.nav-bar h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+  letter-spacing: 5px;
+}
+.nav-bar a {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 15px;
+  margin-right: auto;
+}
+.nav-bar img {
+  width: 35px;
+  height: 30px;
+}
+.nav-bar .space {
+  margin-left: auto;
+}
+.nav-bar .space, .nav-bar a {
+  flex: 1;
+}

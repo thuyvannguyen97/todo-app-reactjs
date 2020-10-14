@@ -1,0 +1,35 @@
+.AddItem {
+  margin-top: 30px;
+}
+.add {
+  background: #fff;
+  text-align: left;
+  margin: 15px 20px;
+}
+input {
+  border: none;
+  padding: 15px;
+  color: #343434;
+  width: 80%;
+}
+input::placeholder, input {
+  font-size: 18px;
+}
+input:focus {
+  outline: 0;
+  box-shadow: none;
+}
+button {
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+  background: #444054;
+  border-radius: 4px;
+}
+button:active, button:focus, button:hover {
+  opacity: 90%;
+  outline: none;
+  border: none
+}
