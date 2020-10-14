@@ -1,0 +1,52 @@
+.ListItems {
+  padding: 0 15px;
+}
+.upcoming {
+  margin-bottom: 40px;
+}
+h5 {
+  color: #fff;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-align: left;
+  margin-left: 5px;
+}
+.item {
+  padding: 15px;
+  border-radius: 4px;
+  text-align: left;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #2d2e2e;
+  box-shadow: 0 0 4px 2px #5090A0;
+  cursor: pointer;
+}
+.item:hover {
+  opacity: 95%;
+}
+.new-item {
+  background: #fff;
+}
+.done {
+  color: #fff;
+  text-decoration: line-through;
+}
+.no-data {
+  text-align: center;
+  margin: 50px;
+}
+.no-data p{
+  width: 250px;
+  margin-bottom: 40px;
+  background: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  color: #646064;
+  padding: 10px;
+  border-radius: 10px;
+}
+.no-data img {
+  width: 250px;
+  height: 250px;
+}

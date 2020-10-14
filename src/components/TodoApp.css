@@ -1,0 +1,21 @@
+.TodoApp {
+  background: #639fab;
+  width: 414px;
+  height: 736px;
+  position: relative;
+}
+.add-btn {
+  position: absolute;
+  bottom: 30px;
+  left: 177px;
+}
+.add-btn img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.add-btn img:hover {
+  opacity: 90%;
+}
+
